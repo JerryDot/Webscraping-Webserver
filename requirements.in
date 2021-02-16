@@ -1,0 +1,6 @@
+pip-tools
+requests
+selenium
+bs4
+pandas
+lxml
