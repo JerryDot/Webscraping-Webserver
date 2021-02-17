@@ -37,7 +37,7 @@ Following are the instructions to do the latter from scratch:
   pip install -r requirements.txt
   ```
 
-* Activate the virtual environment and start the webserver with `python3 -m yahoo_scraper`.
+* Activate the virtual environment and start the webserver with `python3 -m scraper`.
 
 * Connect as a client using another terminal where you can type `nc localhost 8080` and receive requests.
 
@@ -94,7 +94,7 @@ On my machine this solution works well when there are 500 clients making ~2 requ
 second. Included is a script that runs a "dummy client" used for my testing.
 A couple of included graphs show the average response time that a client will receive
 a request and the average latency of the data that it receives (assuming there is no lag
-between the yahoo service and our headless browser:
+between the website's service and our headless browser:
 ![Response time histogram](Response_time_histogram.png "Title")
 ![Data_latency_histogram](Data_latency_histogram.png "Title")
 
